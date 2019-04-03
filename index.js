@@ -75,8 +75,8 @@ app.post('/addUser', (req, res) => {
 });
 
 app.post('/login', passport.authenticate('local', {
-  successRedirect: "http://localhost:3000/",
-  failureRedirect: "http://localhost:3000/signin",
+  successRedirect: "https://goldenclouds.netlify.com/",
+  failureRedirect: "https://goldenclouds.netlify.com/signin",
   failureFlash: true
 
 }));
